@@ -1,0 +1,48 @@
+.dropDownComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+
+.title {
+  color: black;
+}
+
+.answer {
+  color: green;
+  margin: 1rem 0;
+}
+
+.myAns {
+  color: blue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownButton {
+  padding: 1rem 2rem;
+  background-color: rgb(2, 44, 121);
+  border: 0;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+.dropdownList {
+  display: block;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.dropdownItem {
+  padding: 10px;
+  cursor: pointer;
+}
